@@ -24,9 +24,14 @@ const Card = ({ clone }) => {
 					</div>
 				</div>
 				<div className="buttons">
-					<button href={websiteLink} className="button">
-						Website Link
-					</button>
+					{websiteLink ? (
+						<button href={websiteLink} className="button">
+							Website Link
+						</button>
+					) : (
+						""
+					)}
+
 					<button href={githubLink} className="button">
 						Github Link
 					</button>
