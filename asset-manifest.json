@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/website-clones/static/css/main.38aa9c63.chunk.css",
+    "main.js": "/website-clones/static/js/main.f552d64e.chunk.js",
+    "main.js.map": "/website-clones/static/js/main.f552d64e.chunk.js.map",
+    "runtime-main.js": "/website-clones/static/js/runtime-main.a2f29e94.js",
+    "runtime-main.js.map": "/website-clones/static/js/runtime-main.a2f29e94.js.map",
+    "static/js/2.4d233742.chunk.js": "/website-clones/static/js/2.4d233742.chunk.js",
+    "static/js/2.4d233742.chunk.js.map": "/website-clones/static/js/2.4d233742.chunk.js.map",
+    "index.html": "/website-clones/index.html",
+    "static/css/main.38aa9c63.chunk.css.map": "/website-clones/static/css/main.38aa9c63.chunk.css.map",
+    "static/js/2.4d233742.chunk.js.LICENSE.txt": "/website-clones/static/js/2.4d233742.chunk.js.LICENSE.txt",
+    "static/media/Amazon.png": "/website-clones/static/media/Amazon.bf2a3fec.png",
+    "static/media/Netflix.png": "/website-clones/static/media/Netflix.d93b3ab3.png",
+    "static/media/whatsapp.png": "/website-clones/static/media/whatsapp.4005d5af.png",
+    "static/media/zoom.png": "/website-clones/static/media/zoom.88bba5f5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a2f29e94.js",
+    "static/js/2.4d233742.chunk.js",
+    "static/css/main.38aa9c63.chunk.css",
+    "static/js/main.f552d64e.chunk.js"
+  ]
+}
