@@ -17,6 +17,23 @@ const clones = [
 		timeline: "April 2021",
 	},
 	{
+		name: "Whatsapp Clone",
+		githubLink: "https://github.com/ayushazuri/whatsapp-clone",
+		image: require("./assets/Images/whatsapp.png").default,
+		technologies: [
+			"ReactJs",
+			"NodeJs",
+			"ExpressJs",
+			"MongoDB",
+			"SCSS	",
+			"Material UI",
+		],
+		websiteLink: "",
+		description:
+			"A Fullstack project of whatsapp clone built with ReactJs for Frontend and ExpressJs/NodeJs/MongoDB for Backend. When messages are sent, they are stored in the mongoDB database and they are displayed in real-time with the help of Pusher.",
+		timeline: "Arpil 2021",
+	},
+	{
 		name: "Netflix Clone",
 		githubLink: "https://github.com/ayushazuri/Netflix-Clone",
 		image: require("./assets/Images/Netflix.png").default,
@@ -32,25 +49,6 @@ const clones = [
 		description:
 			"Cloned Netflix Website using ReactJS and CSS, and used TMDB API for movie database, then deployed the website on Firebase. Movie trailer can be also viewed if you click on the video card.",
 		timeline: "March 2021",
-	},
-	{
-		name: "Whatsapp Clone",
-		githubLink: "https://github.com/ayushazuri/whatsapp-clone",
-		image: require("./assets/Images/Amazon.png").default,
-		technologies: [
-			"ReactJs",
-			"NodeJs",
-			"ExpressJs",
-			"Pusher",
-			"MongoDB",
-			"Javascript",
-			"SASS",
-			"Material UI",
-		],
-		websiteLink: "",
-		description:
-			"A Fullstack project of whatsapp clone built with ReactJs for Frontend and ExpressJs/NodeJs/MongoDB for Backend. When messages are sent, they are stored in the mongoDB database and they are displayed in real-time with the help of Pusher.",
-		timeline: "Arpil 2021",
 	},
 	{
 		name: "Zoom Clone",

@@ -1,5 +1,6 @@
 .card {
 	min-height: 612px;
+	min-width: 340px;
 	@media (max-width: 1100px) {
 		min-height: auto;
 	}
@@ -9,7 +10,7 @@
 	background-color: white;
 	display: flex;
 	flex-direction: column;
-	& > img {
+	.imagelink > img {
 		width: 100%;
 		height: auto;
 		object-fit: 100%;

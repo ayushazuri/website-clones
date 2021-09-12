@@ -7,7 +7,15 @@ const Card = ({ clone }) => {
 		clone;
 	return (
 		<div className="card">
-			<img src={image} alt="" />
+			<a
+				href={websiteLink ? websiteLink : githubLink}
+				className="imagelink"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				<img src={image} alt="" />
+			</a>
+
 			<div className="details">
 				<h3>{name}</h3>
 				<p>{description}</p>
@@ -25,16 +33,26 @@ const Card = ({ clone }) => {
 				</div>
 				<div className="buttons">
 					{websiteLink ? (
-						<button href={websiteLink} className="button">
+						<a
+							href={websiteLink}
+							className="button"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							Website Link
-						</button>
+						</a>
 					) : (
 						""
 					)}
 
-					<button href={githubLink} className="button">
+					<a
+						href={githubLink}
+						className="button"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						Github Link
-					</button>
+					</a>
 				</div>
 			</div>
 		</div>
